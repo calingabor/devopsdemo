@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-DevopsDemo-16121FA6-3803-4E71-8F6E-26EDFE767136</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/81a1fa3c-97ba-475f-b324-eac44445d096/resourcegroups/DevopsDemo/providers/microsoft.insights/components/devopsdemoattila</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/81a1fa3c-97ba-475f-b324-eac44445d096/resourcegroups/DevopsDemo/providers/microsoft.insights/components/devopsdemoattila</ApplicationInsightsAnnotationResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>
